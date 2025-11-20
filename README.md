@@ -1,16 +1,9 @@
-# React + Vite
+1. Overview
+The goal is to create a React application that includes a component to visualize the placement of an object on a 5x5 grid (table). The position and direction of the object are determined by an input string with the format "x,y direction" (e.g., "1,1 NORTH"). The project will use Material UI for the user interface components and Storybook to document and demonstrate the functionality of the component.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2. Technologies
+React: JavaScript framework for building the user interface.
 
-Currently, two official plugins are available:
+Material UI: React component library for implementing the UI with pre-built components and customizable theming.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Storybook: Tool to document and develop components in isolation.
