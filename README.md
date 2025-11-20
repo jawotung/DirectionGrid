@@ -1,16 +1,24 @@
-# React + Vite
+# 5x5 Grid Object Visualizer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+The goal of this project is to create a React application that includes a component to visualize the placement of an object on a 5x5 grid (table). The position and direction of the object are determined by an input string with the format `"x,y direction"` (e.g., `"1,1 NORTH"`). 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project uses **Material UI** for the user interface components and **Storybook** to document and demonstrate the functionality of the component.
 
-## React Compiler
+### Key Features:
+- **5x5 Grid Display**: A visual grid where the object’s position is displayed based on the input.
+- **Position and Direction Control**: The object’s position and direction are determined by an input string (e.g., `"1,1 NORTH"`).
+- **Material UI**: Utilizes Material UI components for a clean and responsive user interface.
+- **Storybook**: Documenting the component using Storybook for development in isolation and visual testing.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies
 
-## Expanding the ESLint configuration
+- **React**: A JavaScript framework used to build the user interface.
+- **Material UI**: A React component library to design the UI, offering customizable components with a modern, consistent design.
+- **Storybook**: A tool for developing and documenting components in isolation, making it easier to test UI components and ensure reusability.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 3. How to Run
+Install dependencies by running pnpm install (or npm/yarn)
+Run in dev mode by executing: pnpm run dev (or npm/yarn)
+Run Storybook to view components in isolation: pnpm run storybook (or npm/yarn)
