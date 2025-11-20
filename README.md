@@ -20,5 +20,7 @@ The project uses **Material UI** for the user interface components and **Storybo
 
 ## 3. How to Run
 Install dependencies by running pnpm install (or npm/yarn)
+
 Run in dev mode by executing: pnpm run dev (or npm/yarn)
+
 Run Storybook to view components in isolation: pnpm run storybook (or npm/yarn)
